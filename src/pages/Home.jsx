@@ -42,6 +42,7 @@ function Home() {
         <main className='flex gap-5 justify-center m-5 bg-slate-900 flex-wrap'>
             <Movies movies={movies}/>
         </main>
+        <p className='text-white text-center mt-2 font-bold'>Todos os direitos reservados Luís Scacchetti &copy;2025</p>
     </div>
   )
 }
