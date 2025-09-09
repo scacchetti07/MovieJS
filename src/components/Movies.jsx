@@ -1,6 +1,11 @@
 import React from 'react'
 
-function Movies({ movies }) {
+function Movies({ movies, searched }) {
+  
+  if (searched && movies.length === 0) {
+    return <p className="text-center text-slate-400 text-lg">Nenhum filme encontrado com esse termo.</p>;
+  }
+
   return (
     <>
       {movies.map((movie) => (
