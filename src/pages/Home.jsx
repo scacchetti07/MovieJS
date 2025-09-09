@@ -8,9 +8,9 @@ function Home() {
         JSON.parse(localStorage.getItem('movies')) || []
     )
 
-   // useEffect(() => {
-   //     localStorage.setItem("movies", JSON.stringify(movies))
-   // }, [movies])
+    useEffect(() => {
+        localStorage.setItem("movies", JSON.stringify(movies))
+    }, [movies])
 
     useEffect(() => {
         async function fetchMovies() {

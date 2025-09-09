@@ -9,7 +9,7 @@ function Movies({ movies }) {
           <div className='p-3 space-y-2'>
             <h3 className='font-bold text-center'>{movie.title}</h3>
             { /* O texto será exibido até o primeiro ponto encontrado. */ }
-            <p>{movie.overview.slice(0, [...movie.overview].findIndex(c => c == '.'))}</p>
+            <p>{movie.overview.slice(0, [...movie.overview].findIndex(c => c == '.')) || "Sem overview."}</p>
           </div>
         </article>
       ))}
