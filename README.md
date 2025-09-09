@@ -6,9 +6,7 @@ Uma aplicação web moderna para pesquisar seus filmes favoritos. Este projeto f
 
 **Visite a aplicação em funcionamento:**
 
-### 👉 [Acesse aqui o Website](https://seu-link-aqui.vercel.app)
-
-> **Nota:** Substitua o link acima pelo link do seu projeto após o deploy na Vercel.
+### 👉 [Acesse aqui o Website](https://movie-js-kappa.vercel.app/)
 
 ---
 
