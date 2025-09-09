@@ -1,13 +1,11 @@
 import React from 'react'
+import Header from '../components/Header'
 
 function Home() {
-
-
-    
   return (
-    <main className='bg-slate-900 min-h-screen w-screen'>
-
-    </main>
+    <div className='bg-slate-900 min-h-screen w-screen'>
+        <Header />
+    </div>
   )
 }
 
