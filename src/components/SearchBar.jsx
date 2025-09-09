@@ -53,6 +53,7 @@ function SearchBar({ onSearch, setMovies }) {
         title='Pressione Enter...'
         onChange={(event) => setSearchTerm(event.target.value)}
         onKeyDown={handleKeyDown}
+        disabled
       />
     </div>
   );
